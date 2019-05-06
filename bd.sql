@@ -1,0 +1,10 @@
+/*CREATE DATABASE todo;*/
+
+USE todo;
+
+CREATE table tarefas
+(
+	id INTEGER PRIMARY KEY AUTO_INCREMENT,
+	STATUS TINYINT,
+	titulo VARCHAR(100)
+);
